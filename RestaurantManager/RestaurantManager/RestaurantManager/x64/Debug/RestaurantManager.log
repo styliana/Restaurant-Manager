@@ -1,0 +1,6 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (RestaurantManager.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Reading Qt configuration (C:/Qt/6.7.0/msvc2019_64/bin/qmake)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (RestaurantManager.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  RestaurantManager.vcxproj -> P:\proj\RestaurantManager\x64\Debug\RestaurantManager.exe
+  P:\proj\RestaurantManager\x64\Debug\RestaurantManager.exe
+          1 file(s) copied.

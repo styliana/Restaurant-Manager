@@ -1,0 +1,37 @@
+﻿  Reading Qt configuration (C:/Qt/6.7.0/msvc2019_64/bin/qmake)
+  Restaurant.cpp
+P:\proj\DLL\Restaurant.h(18,23): warning C4251: 'Restaurant::menu': class 'std::vector<Dish,std::allocator<Dish>>' needs to have dll-interface to be used by clients of class 'Restaurant'
+  (compiling source file 'Restaurant.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(436,7):
+  see declaration of 'std::vector<Dish,std::allocator<Dish>>'
+  
+P:\proj\DLL\Restaurant.cpp(6,13): warning C4273: 'Restaurant::Restaurant': inconsistent dll linkage
+  P:\proj\DLL\Restaurant.h(11,5):
+  see previous definition of '{ctor}'
+  
+P:\proj\DLL\Restaurant.cpp(8,14): warning C4273: 'Restaurant::~Restaurant': inconsistent dll linkage
+  P:\proj\DLL\Restaurant.h(12,6):
+  see previous definition of '{dtor}'
+  
+P:\proj\DLL\Restaurant.cpp(12,18): warning C4273: 'Restaurant::loadMenuFromFile': inconsistent dll linkage
+  P:\proj\DLL\Restaurant.h(14,10):
+  see previous definition of 'loadMenuFromFile'
+  
+P:\proj\DLL\Restaurant.cpp(40,38): warning C4273: 'Restaurant::getMenu': inconsistent dll linkage
+  P:\proj\DLL\Restaurant.h(15,30):
+  see previous definition of 'getMenu'
+  
+P:\proj\DLL\Restaurant.cpp(44,20): warning C4273: 'Restaurant::getDishPrice': inconsistent dll linkage
+  P:\proj\DLL\Restaurant.h(16,12):
+  see previous definition of 'getDishPrice'
+  
+     Creating library P:\proj\RestaurantManager\x64\Debug\DLL.lib and object P:\proj\RestaurantManager\x64\Debug\DLL.exp
+  DLL.vcxproj -> P:\proj\RestaurantManager\x64\Debug\DLL.dll
+  P:\proj\DLL\API.h
+  P:\proj\DLL\Dish.h
+  P:\proj\DLL\Restaurant.h
+          3 file(s) copied.
+  P:\proj\RestaurantManager\x64\Debug\DLL.dll
+          1 file(s) copied.
+  P:\proj\RestaurantManager\x64\Debug\DLL.lib
+          1 file(s) copied.
