@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RestaurantManager", "RestaurantManager\RestaurantManager.vcxproj", "{A2C9A4E6-BC38-40E0-98D6-A6DA5CB56284}"
+	ProjectSection(ProjectDependencies) = postProject
+		{51C5EF6D-57E7-40EF-9E9E-B9E1665326E7} = {51C5EF6D-57E7-40EF-9E9E-B9E1665326E7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DLL", "..\DLL\DLL.vcxproj", "{51C5EF6D-57E7-40EF-9E9E-B9E1665326E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2C9A4E6-BC38-40E0-98D6-A6DA5CB56284}.Debug|x64.ActiveCfg = Debug|x64
+		{A2C9A4E6-BC38-40E0-98D6-A6DA5CB56284}.Debug|x64.Build.0 = Debug|x64
+		{A2C9A4E6-BC38-40E0-98D6-A6DA5CB56284}.Release|x64.ActiveCfg = Release|x64
+		{A2C9A4E6-BC38-40E0-98D6-A6DA5CB56284}.Release|x64.Build.0 = Release|x64
+		{51C5EF6D-57E7-40EF-9E9E-B9E1665326E7}.Debug|x64.ActiveCfg = Debug|x64
+		{51C5EF6D-57E7-40EF-9E9E-B9E1665326E7}.Debug|x64.Build.0 = Debug|x64
+		{51C5EF6D-57E7-40EF-9E9E-B9E1665326E7}.Release|x64.ActiveCfg = Release|x64
+		{51C5EF6D-57E7-40EF-9E9E-B9E1665326E7}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0557319A-24F2-4F1D-AC85-8F59FA4ADFCC}
+	EndGlobalSection
+EndGlobal
