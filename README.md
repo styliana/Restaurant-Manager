@@ -18,3 +18,7 @@ Klasa OrderForm obsługuje formularz zamówienia:
   * obliczanie całkowitej ceny.
 
 Obsługiwane są również wyjątki, takie jak niepoprawne dane, zbyt duża ilość dań w zamówieniu czy puste zamówienie.
+
+![image](https://github.com/styliana/Restaurant-Manager/assets/64647649/d484de16-25c2-4c8c-b568-7cfe4581144e)
+![image](https://github.com/styliana/Restaurant-Manager/assets/64647649/20fc380e-3ad9-4447-8f7d-056137dd9e3c)
+![image](https://github.com/styliana/Restaurant-Manager/assets/64647649/c744c966-616b-489d-b46d-13db771463ac)
